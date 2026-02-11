@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenv
+venv/
+.venv/
+
+# Local data / databases / exports (keep your real data private)
+data/
+**/supplements.db
+**/backups/
+**/exports/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
